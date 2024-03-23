@@ -1,0 +1,22 @@
+run rmi
+
+set path=C:\Program Files\Java\jdk-21\bin
+
+server:
+compile implemntation file -javac
+compile server file-javac
+start registry
+run server file-java classname
+
+
+client:
+
+compile implemntation file -javac
+compile client file-javac
+run client file-java classname
+
+
+C:\mysql-connector-j-8.3.0
+
+java -cp "C:\mysql-connector-j-8.3.0.jar;." dbserver
+C:\mysql-connector-java-8.3.0.jar
